@@ -1,0 +1,115 @@
+﻿@model List<Vodafon.Models.NumbersViewModel>
+
+@{
+    ViewBag.Title = "PrivateNumbers";
+}
+
+<h2>Private Numbers</h2>
+
+<div class="form-group row">
+    <div class="col-md-4">
+        @Html.CheckBox("private", false, new { id = "privateOnly" })
+        @Html.Label("Show Private only")
+    </div>
+    <div class="col-md-4">
+        @Html.CheckBox("public", false, new { id = "publicOnly" })
+        @Html.Label("Show public only")
+    </div>
+    @*<div class="col-md-4">
+        <input type="button" value="OK" class="btn btn-primary" onclick="GetData()" />
+    </div>*@
+</div>
+
+
+<div class="row GridDiv">
+    @Html.Partial("_ExportPrivateNumbers", Model)
+</div>
+
+<script src="~/Scripts/jquery-1.12.4.min.js"></script>
+<script>
+    $(document).ready(function () {
+
+        $('#privateOnly').change(function () {
+            RunsOnMondays();
+        });
+
+        $('#publicOnly').change(function () {
+            RunsOnSundays();
+        });
+
+    });
+
+    function RunsOnMondays() {
+        if ($('#privateOnly').prop('checked')) {
+            $.ajax({
+                url: "/Numbers/GetPrivateOnly",
+                type: 'get',
+                data: { privateOnly: true, publicOnly: false },
+                success: function (result) {
+                    debugger;
+                    $(".GridDiv").empty();
+                    $(".GridDiv").html(result);
+                }
+            });
+        } else {
+            $.ajax({
+                url: "/Numbers/GetPrivateOnly",
+                type: 'get',
+                data: { privateOnly: false, publicOnly: false },
+                success: function (result) {
+                    debugger;
+                    $(".GridDiv").empty();
+                    $(".GridDiv").html(result);
+                }
+            });
+        }
+    }
+
+    function RunsOnSundays() {
+        if ($('#publicOnly').prop('checked')) {
+            $.ajax({
+                url: "/Numbers/GetPrivateOnly",
+                type: 'get',
+                data: { privateOnly: false, publicOnly: true },
+                success: function (result) {
+                    debugger;
+                    $(".GridDiv").empty();
+                    $(".GridDiv").html(result);
+                }
+            });
+        } else {
+            $.ajax({
+                url: "/Numbers/GetPrivateOnly",
+                type: 'get',
+                data: { privateOnly: false, publicOnly: false },
+                success: function (result) {
+                    debugger;
+                    $(".GridDiv").empty();
+                    $(".GridDiv").html(result);
+                }
+            });
+        }
+    }
+
+        function GetData() {
+            debugger;
+            var privateOnly = false;
+            var publicOnly = false;
+            if ($('#privateOnly').is(":checked")) {
+                privateOnly = true;
+            }
+            if ($('#publicOnly').is(":checked")) {
+                publicOnly = true;
+            }           
+                $.ajax({
+                    url: "/Numbers/GetPrivateOnly",
+                    type: 'get',
+                    data: { privateOnly: privateOnly, publicOnly: publicOnly },
+                    success: function (result) {
+                        debugger;
+                        $(".GridDiv").empty();
+                        $(".GridDiv").html(result);
+                    }
+                });
+        }
+</script>

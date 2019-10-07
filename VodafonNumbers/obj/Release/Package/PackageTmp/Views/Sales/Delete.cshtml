@@ -1,0 +1,120 @@
+﻿@model VodafonNumbers.Models.Sale
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Sale</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Serial)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Serial)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Mobile1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Mobile1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Mobile2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Mobile2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.City)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.City)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.District)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.District)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AccountID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AccountID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsActive)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsFollow)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsFollow)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Number.No)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Number.No)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Package1.PackageName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Package1.PackageName)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

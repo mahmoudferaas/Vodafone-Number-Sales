@@ -1,0 +1,332 @@
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\roslyn\csc.exe
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\roslyn\System.Collections.Immutable.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\roslyn\vbc.exe
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\roslyn\VBCSCompiler.exe
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\roslyn\VBCSCompiler.exe.config
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\VodafonNumbers.dll.config
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\VodafonNumbers.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\VodafonNumbers.pdb
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Antlr3.Runtime.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\EntityFramework.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\EntityFramework.SqlServer.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Google.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.Web.Infrastructure.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Newtonsoft.Json.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Owin.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\System.Web.Helpers.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\System.Web.Mvc.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\System.Web.Optimization.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\System.Web.Razor.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\System.Web.WebPages.Deployment.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\System.Web.WebPages.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\System.Web.WebPages.Razor.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\WebGrease.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\System.Web.Helpers.xml
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\System.Web.Mvc.xml
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\System.Web.Optimization.xml
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\System.Web.Razor.xml
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\System.Web.WebPages.xml
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\System.Web.WebPages.Deployment.xml
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\System.Web.WebPages.Razor.xml
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Antlr3.Runtime.pdb
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Newtonsoft.Json.xml
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\EntityFramework.xml
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\EntityFramework.SqlServer.xml
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.xml
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.xml
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Google.xml
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.csprojResolveAssemblyReference.cache
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.pdb
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\EPPlus.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\OfficeOpenXml.Extends.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\EPPlus.xml
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.Migrations.InitialCreate.resources
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.csproj.GenerateResource.Cache
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.Migrations.AddColumn.resources
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.Migrations.passwordValidation.resources
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.SignalR.Core.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.SignalR.Core.pdb
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.SignalR.Core.xml
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+c:\users\feraas\documents\visual studio 2015\Projects\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\roslyn\csc.exe
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\roslyn\System.Collections.Immutable.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\roslyn\System.Reflection.Metadata.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\roslyn\vbc.exe
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\roslyn\VBCSCompiler.exe
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\roslyn\VBCSCompiler.exe.config
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\VodafonNumbers.dll.config
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\VodafonNumbers.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\VodafonNumbers.pdb
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Antlr3.Runtime.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\EntityFramework.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\EntityFramework.SqlServer.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\EPPlus.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Google.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.Web.Infrastructure.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Newtonsoft.Json.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\OfficeOpenXml.Extends.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Owin.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\System.Web.Helpers.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\System.Web.Mvc.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\System.Web.Optimization.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\System.Web.Razor.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\System.Web.WebPages.Deployment.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\System.Web.WebPages.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\System.Web.WebPages.Razor.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\WebGrease.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\EPPlus.xml
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.SignalR.Core.pdb
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\System.Web.Helpers.xml
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\System.Web.Mvc.xml
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\System.Web.Optimization.xml
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\System.Web.Razor.xml
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\System.Web.WebPages.xml
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\System.Web.WebPages.Deployment.xml
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\System.Web.WebPages.Razor.xml
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Antlr3.Runtime.pdb
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Newtonsoft.Json.xml
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\EntityFramework.xml
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\EntityFramework.SqlServer.xml
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.xml
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.xml
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Google.xml
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Feraas\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Feraas\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.csprojResolveAssemblyReference.cache
+D:\Feraas\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.Migrations.InitialCreate.resources
+D:\Feraas\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.Migrations.AddColumn.resources
+D:\Feraas\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.Migrations.passwordValidation.resources
+D:\Feraas\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.csproj.GenerateResource.Cache
+D:\Feraas\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.dll
+D:\Feraas\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.pdb
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\roslyn\csc.exe
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\roslyn\System.Collections.Immutable.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\roslyn\System.Reflection.Metadata.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\roslyn\vbc.exe
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\roslyn\VBCSCompiler.exe
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\roslyn\VBCSCompiler.exe.config
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\VodafonNumbers.dll.config
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\VodafonNumbers.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\VodafonNumbers.pdb
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Antlr3.Runtime.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\EntityFramework.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\EntityFramework.SqlServer.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\EPPlus.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Google.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.Web.Infrastructure.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Newtonsoft.Json.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\OfficeOpenXml.Extends.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Owin.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\System.Web.Helpers.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\System.Web.Mvc.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\System.Web.Optimization.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\System.Web.Razor.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\System.Web.WebPages.Deployment.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\System.Web.WebPages.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\System.Web.WebPages.Razor.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\WebGrease.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\EPPlus.xml
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.SignalR.Core.pdb
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\System.Web.Helpers.xml
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\System.Web.Mvc.xml
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\System.Web.Optimization.xml
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\System.Web.Razor.xml
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\System.Web.WebPages.xml
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\System.Web.WebPages.Deployment.xml
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\System.Web.WebPages.Razor.xml
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Antlr3.Runtime.pdb
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Newtonsoft.Json.xml
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\EntityFramework.xml
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\EntityFramework.SqlServer.xml
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.xml
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.xml
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Google.xml
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Fer3as\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Fer3as\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.csprojAssemblyReference.cache
+D:\Fer3as\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.Migrations.InitialCreate.resources
+D:\Fer3as\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.Migrations.AddColumn.resources
+D:\Fer3as\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.Migrations.passwordValidation.resources
+D:\Fer3as\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.csproj.GenerateResource.cache
+D:\Fer3as\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.csproj.CoreCompileInputs.cache
+D:\Fer3as\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.csproj.CopyComplete
+D:\Fer3as\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.dll
+D:\Fer3as\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.pdb
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\roslyn\csc.exe
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\roslyn\System.Collections.Immutable.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\roslyn\System.Reflection.Metadata.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\roslyn\vbc.exe
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\roslyn\VBCSCompiler.exe
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\roslyn\VBCSCompiler.exe.config
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\VodafonNumbers.dll.config
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\VodafonNumbers.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\VodafonNumbers.pdb
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Antlr3.Runtime.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\EntityFramework.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\EntityFramework.SqlServer.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\EPPlus.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Google.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.Web.Infrastructure.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Newtonsoft.Json.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\OfficeOpenXml.Extends.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Owin.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\System.Web.Helpers.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\System.Web.Mvc.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\System.Web.Optimization.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\System.Web.Razor.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\System.Web.WebPages.Deployment.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\System.Web.WebPages.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\System.Web.WebPages.Razor.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\WebGrease.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\EPPlus.xml
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.SignalR.Core.pdb
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\System.Web.Helpers.xml
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\System.Web.Mvc.xml
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\System.Web.Optimization.xml
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\System.Web.Razor.xml
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\System.Web.WebPages.xml
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\System.Web.WebPages.Deployment.xml
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\System.Web.WebPages.Razor.xml
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Antlr3.Runtime.pdb
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Newtonsoft.Json.xml
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\EntityFramework.xml
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\EntityFramework.SqlServer.xml
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.xml
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.xml
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Google.xml
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.csprojAssemblyReference.cache
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.Migrations.InitialCreate.resources
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.Migrations.AddColumn.resources
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.Migrations.passwordValidation.resources
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.csproj.GenerateResource.cache
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.csproj.CoreCompileInputs.cache
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.csproj.CopyComplete
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.dll
+D:\Fer3as\Others\VodafonNumbers\VodafonNumbers\obj\Debug\VodafonNumbers.pdb

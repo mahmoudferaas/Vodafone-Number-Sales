@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VodafonNumersModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="VodafonEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Numbers" EntityType="VodafonNumersModel.Number" />
+    <EntitySet Name="Packages" EntityType="VodafonNumersModel.Package" />
+    <EntitySet Name="Sales" EntityType="VodafonNumersModel.Sale" />
+    <EntitySet Name="sysdiagrams" EntityType="VodafonNumersModel.sysdiagram" />
+    <AssociationSet Name="FK_Sales_Numbers" Association="VodafonNumersModel.FK_Sales_Numbers">
+      <End Role="Number" EntitySet="Numbers" />
+      <End Role="Sale" EntitySet="Sales" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sales_Packages" Association="VodafonNumersModel.FK_Sales_Packages">
+      <End Role="Package" EntitySet="Packages" />
+      <End Role="Sale" EntitySet="Sales" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Number">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="No" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IsChoosen" Type="Boolean" />
+    <Property Name="IsPrivate" Type="Boolean" />
+    <NavigationProperty Name="Sales" Relationship="VodafonNumersModel.FK_Sales_Numbers" FromRole="Number" ToRole="Sale" />
+  </EntityType>
+  <EntityType Name="Package">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PackageName" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Units" Type="Int32" />
+    <NavigationProperty Name="Sales" Relationship="VodafonNumersModel.FK_Sales_Packages" FromRole="Package" ToRole="Sale" />
+  </EntityType>
+  <EntityType Name="Sale">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Serial" Type="Int64" Nullable="false" />
+    <Property Name="CustomerName" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="ChoosenNo" Type="Int32" />
+    <Property Name="Package" Type="Int32" />
+    <Property Name="Mobile1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Mobile2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Address" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="City" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="District" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="UserID" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="UserName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="IsFollow" Type="Boolean" />
+    <Property Name="CreationDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Number" Relationship="VodafonNumersModel.FK_Sales_Numbers" FromRole="Sale" ToRole="Number" />
+    <NavigationProperty Name="Package1" Relationship="VodafonNumersModel.FK_Sales_Packages" FromRole="Sale" ToRole="Package" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Sales_Numbers">
+    <End Type="VodafonNumersModel.Number" Role="Number" Multiplicity="0..1" />
+    <End Type="VodafonNumersModel.Sale" Role="Sale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Number">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Sale">
+        <PropertyRef Name="ChoosenNo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sales_Packages">
+    <End Type="VodafonNumersModel.Package" Role="Package" Multiplicity="0..1" />
+    <End Type="VodafonNumersModel.Sale" Role="Sale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Package">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Sale">
+        <PropertyRef Name="Package" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

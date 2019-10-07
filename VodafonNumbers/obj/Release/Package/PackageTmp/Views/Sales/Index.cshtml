@@ -1,0 +1,90 @@
+﻿@model IEnumerable<Vodafon.Models.SalesViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<br />
+<br />
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Serial)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Mobile1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Mobile2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.City)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.District)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UserName)
+        </th>
+        <th>
+            @Html.DisplayName("Follow")
+        </th>
+        <th>
+            @Html.DisplayName("Active")
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Serial)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomerName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Mobile1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Mobile2)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.City)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.District)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserName)
+        </td>
+        <td>
+            @Html.CheckBoxFor(modelItem => item.IsFollow , new { @disabled = "disabled" })
+        </td>
+        <td>
+            @Html.CheckBoxFor(modelItem => item.IsActive , new { @disabled = "disabled" })
+        </td>
+
+        @*@if (ViewBag.UserRole != "Agent")
+        {*@
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ID })
+            </td>
+            
+       
+    </tr>
+}
+
+</table>

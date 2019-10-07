@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Vodafon.Models.NumbersViewModel>
+
+@{
+    ViewBag.Title = "PrivateNumbers";
+}
+
+<h2>PrivateNumbers</h2>
+@using (Html.BeginForm())
+{
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayName("Number")
+            </th>
+            <th>
+                @Html.DisplayName("Choosen")
+            </th>
+            <th>
+                @Html.DisplayName("Private")
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.HiddenFor(modelItem => item.ID)
+                    @Html.DisplayFor(modelItem => item.No)
+                </td>
+                <td>
+                    @Html.CheckBoxFor(modelItem => item.IsChoosen, new { htmlAttributes = new { @class = "form-control" } })
+                    @*@Html.DisplayFor(modelItem => item.IsChoosen)*@
+                </td>
+                <td>
+                    @Html.CheckBoxFor(modelItem => item.IsPrivate, new { htmlAttributes = new { @class = "form-control" } })
+                    @*@Html.DisplayFor(modelItem => item.IsPrivate)*@
+                </td>
+            </tr>
+        }
+
+    </table>
+
+    <div class="form-group row">
+        <div class="col-md-offset-2 col-md-1">
+            <input type="submit" value="Save" class="btn btn-default" />
+        </div>
+    </div>
+}
+
+

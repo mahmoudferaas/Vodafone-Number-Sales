@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VodafonNumersModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Numbers">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="No" Type="varchar" MaxLength="50" />
+    <Property Name="IsChoosen" Type="bit" />
+    <Property Name="IsPrivate" Type="bit" />
+    <Property Name="UserID" Type="nvarchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="Packages">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PackageName" Type="nvarchar" MaxLength="150" />
+    <Property Name="Units" Type="int" />
+  </EntityType>
+  <EntityType Name="Sales">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Serial" Type="bigint" Nullable="false" />
+    <Property Name="CustomerName" Type="nvarchar" MaxLength="150" />
+    <Property Name="ChoosenNo" Type="int" />
+    <Property Name="Package" Type="int" />
+    <Property Name="Mobile1" Type="varchar" MaxLength="50" />
+    <Property Name="Mobile2" Type="varchar" MaxLength="50" />
+    <Property Name="Address" Type="nvarchar" MaxLength="150" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="District" Type="nvarchar" MaxLength="50" />
+    <Property Name="UserID" Type="nvarchar" MaxLength="100" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="100" />
+    <Property Name="CreationDate" Type="datetime" />
+    <Property Name="StatusID" Type="int" />
+    <Property Name="CustomerID" Type="nvarchar" MaxLength="50" />
+    <Property Name="Comment" Type="nvarchar" MaxLength="2500" />
+    <Property Name="ActivationDate" Type="datetime" />
+    <Property Name="RejectDate" Type="datetime" />
+    <Property Name="VisitDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Status">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="Vendors">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ArabicName" Type="nvarchar" MaxLength="150" />
+    <Property Name="EnglishName" Type="nvarchar" MaxLength="150" />
+    <Property Name="Mobile" Type="varchar" MaxLength="50" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Sales_Numbers">
+    <End Role="Numbers" Type="Self.Numbers" Multiplicity="0..1" />
+    <End Role="Sales" Type="Self.Sales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Numbers">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Sales">
+        <PropertyRef Name="ChoosenNo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sales_Packages">
+    <End Role="Packages" Type="Self.Packages" Multiplicity="0..1" />
+    <End Role="Sales" Type="Self.Sales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Packages">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Sales">
+        <PropertyRef Name="Package" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sales_Status">
+    <End Role="Status" Type="Self.Status" Multiplicity="0..1" />
+    <End Role="Sales" Type="Self.Sales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Status">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Sales">
+        <PropertyRef Name="StatusID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="VodafonNumersModelStoreContainer">
+    <EntitySet Name="Numbers" EntityType="Self.Numbers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Packages" EntityType="Self.Packages" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sales" EntityType="Self.Sales" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Status" EntityType="Self.Status" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vendors" EntityType="Self.Vendors" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Sales_Numbers" Association="Self.FK_Sales_Numbers">
+      <End Role="Numbers" EntitySet="Numbers" />
+      <End Role="Sales" EntitySet="Sales" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sales_Packages" Association="Self.FK_Sales_Packages">
+      <End Role="Packages" EntitySet="Packages" />
+      <End Role="Sales" EntitySet="Sales" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sales_Status" Association="Self.FK_Sales_Status">
+      <End Role="Status" EntitySet="Status" />
+      <End Role="Sales" EntitySet="Sales" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

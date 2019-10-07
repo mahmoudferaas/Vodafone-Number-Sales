@@ -1,0 +1,118 @@
+﻿@model List<Vodafon.Models.SalesViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<br />
+<br />
+
+<script src="~/Scripts/paging/jquery-1.7.1.min.js"></script>
+<script src="~/Scripts/paging/jquery-ui.min.js"></script>
+<script src="~/Scripts/paging/paging.js"></script>
+<link href="~/Scripts/paging/paging.css" rel="stylesheet" />
+
+
+@using (Html.BeginForm("ExportToExcel", "Sales", FormMethod.Post))
+{
+    <table id="tbldata" class="table">
+        <tr>
+            <th>Serial</th>
+            <th>CustomerID</th>
+            <th>CustomerName</th>
+            <th>ChoosenNo</th>
+            <th>Mobile1</th>
+            <th>Mobile2</th>
+            @*<th>Address</th>*@
+            <th>City</th>
+            <th>District</th>
+            <th>UserName</th>
+            <th>CreationDate</th>
+            <th>Status</th>
+            <th>Comment</th>
+            <th></th>
+        </tr>
+        @{
+    for (int i = 0; i < Model.Count; i++)
+    {
+        <tr>
+            <td>
+                @Html.HiddenFor(modelItem => Model[i].ID)
+                @Html.DisplayFor(modelItem => Model[i].Serial)
+                @Html.HiddenFor(modelItem => Model[i].Serial)
+                @Html.HiddenFor(modelItem => Model[i].PackageName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => Model[i].CustomerID)
+                @Html.HiddenFor(modelItem => Model[i].CustomerID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => Model[i].CustomerName)
+                @Html.HiddenFor(modelItem => Model[i].CustomerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => Model[i].ChoosenNumber)
+                @Html.HiddenFor(modelItem => Model[i].ChoosenNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => Model[i].Mobile1)
+                @Html.HiddenFor(modelItem => Model[i].Mobile1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => Model[i].Mobile2)
+                @Html.HiddenFor(modelItem => Model[i].Mobile2)
+            </td>
+            @*<td>
+                    @Html.DisplayFor(modelItem => Model[i].Address)
+                    @Html.HiddenFor(modelItem => Model[i].Address)
+                </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => Model[i].City)
+                @Html.HiddenFor(modelItem => Model[i].City)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => Model[i].District)
+                @Html.HiddenFor(modelItem => Model[i].District)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => Model[i].UserName)
+                @Html.HiddenFor(modelItem => Model[i].UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => Model[i].CreationDateString)
+                @Html.HiddenFor(modelItem => Model[i].CreationDateString)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => Model[i].StatusName)
+                @Html.HiddenFor(modelItem => Model[i].StatusName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => Model[i].Address)
+                @Html.DisplayFor(modelItem => Model[i].Comment)
+                @Html.HiddenFor(modelItem => Model[i].Comment)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = Model[i].ID })
+            </td>
+        </tr>
+    }
+        }
+    </table>
+
+
+    <div class="form-group row">
+        <div class="col-md-offset-2 col-md-1">
+            <input type="submit" value="Export Excel" class="btn btn-primary" />
+        </div>
+    </div>
+}
+
+
+<script>
+    $(function () {
+
+        $('#tbldata').paging({ limit: 10 });
+
+    })
+</script>

@@ -1,0 +1,23 @@
+﻿
+@using (Html.BeginForm("Upload", "Numbers", FormMethod.Post, new
+{
+    enctype = "multipart/form-data"
+}))
+{
+    <br />
+    <br />
+    <table> 
+    <tr> 
+        <td> Choose Exel File: </td> 
+        <td> <input type="file" name="UploadedFile" /> </td>
+         </tr>
+
+        <tr> <td></td>  </tr>
+     <tr> 
+
+        <td colspan="2"> 
+         <input type="submit" name="Submit" value="Submit" /> 
+         </td> 
+        </tr> 
+    </table>
+} 

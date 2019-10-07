@@ -1,0 +1,135 @@
+﻿@model List<Vodafon.Models.SalesViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2> @ViewBag.State Sales</h2>
+
+<br />
+<br />
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+
+
+<div class="row">
+
+    <div class="col-md-3">
+        <label class="col-md-3">Search Type</label>
+        <div class="col-md-9">
+            @Html.DropDownList("SearchType", new SelectList(ViewBag.SearchTypes, "Value", "Text"), "Search Type", new { @class = "form-control", id = "SearchType" })
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <label class="col-md-3">Search Value</label>
+        <div class="col-md-9">
+            @Html.TextBox("Serial", null, new { @class = "form-control", id = "SearchValue" })
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <label class="col-md-3">From Date</label>
+        <div class="col-md-9">
+            @Html.TextBox("FromDate", null, new { @class = "form-control date-picker", id = "FromDate" })
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <label class="col-md-4">To Date</label>
+        <div class="col-md-8">
+            @Html.TextBox("ToDate", null, new { @class = "form-control date-picker", id = "ToDate" })
+        </div>
+    </div>
+
+</div>
+<br />
+<div class="form-group row">
+    @if (ViewBag.State == "Active")
+    {
+        <div class="col-md-3">
+            <label class="col-md-3">Active From Date</label>
+            <div class="col-md-9">
+                @Html.TextBox("ActiveFromDate", null, new { @class = "form-control date-picker", id = "ActiveFromDate" })
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <label class="col-md-4">Active To Date</label>
+            <div class="col-md-8">
+                @Html.TextBox("ActiveToDate", null, new { @class = "form-control date-picker", id = "ActiveToDate" })
+            </div>
+        </div>
+
+    }
+    
+    <div class="col-md-6">
+    </div>
+    <div class="col-md-1">
+        <input type="button" value="Search" class="btn btn-primary" onclick="GetData()" />
+    </div>
+</div>
+
+<div class="row GridDiv">
+    @Html.Partial("_index", Model)
+
+</div>
+
+@if (Model.Count > 0)
+{
+    @Html.HiddenFor(modelItem => Model[0].StatusID, new { @class = "form-control", id = "SearchStatusID" })
+}
+
+<link href="~/Content/themes/base/jquery-ui.min.css" rel="stylesheet" />
+
+@section scripts{
+    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+
+    <script src="~/Scripts/paging/jquery-1.7.1.min.js"></script>
+    <script src="~/Scripts/paging/jquery-ui.min.js"></script>
+    <script src="~/Scripts/paging/paging.js"></script>
+    <link href="~/Scripts/paging/paging.css" rel="stylesheet" />
+
+    <script>
+        $(function () {
+            // This will make every element with the class "date-picker" into a DatePicker element
+            $('.date-picker').datepicker({
+                //dateFormat: "yy-mm-dd"
+                dateFormat: "mm/dd/yy"
+            });
+
+            $('#tbldata').paging({ limit: 10 });
+
+        })
+    </script>
+}
+
+
+<script>
+
+    function GetData() {
+        debugger;
+        var SearchValue = $("#SearchValue").val();
+        var FromDate = $("#FromDate").val();
+        var ToDate = $("#ToDate").val();
+
+        var ActiveFromDate = $("#ActiveFromDate").val();
+        var ActiveToDate = $("#ActiveToDate").val();
+        var StatusID = $("#SearchStatusID").val();
+        var SearchType = $("#SearchType").val();
+
+        $.ajax({
+            url: "/Sales/FilterData",
+            type: 'get',
+            data: { SearchType: SearchType, SearchValue: SearchValue, FromDateString: FromDate, ToDateString: ToDate, StatusID: StatusID, ActivationFromDateString: ActiveFromDate, ActivationToDateString: ActiveToDate},
+            success: function (result) {
+                debugger;
+                $(".GridDiv").empty();
+                $(".GridDiv").html(result);
+            }
+        });
+    }
+</script>
+

@@ -1,0 +1,251 @@
+﻿@model Vodafon.Models.SalesViewModel
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create Sale</h2>
+
+@*<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>*@
+
+@using (Html.BeginForm("Create", "Sales", FormMethod.Post,new { id = "CreateForm" }))
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.Serial, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.HiddenFor(model => model.StatusID, new { id = "StatusID" })
+                @Html.EditorFor(model => model.Serial, new { htmlAttributes = new { @class = "form-control" , id= "Serial", @readonly = "readonly" } })
+                @Html.ValidationMessageFor(model => model.Serial, "", new { @class = "text-danger"  })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Customer ID", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CustomerID, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.CustomerID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CustomerName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CustomerName, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.CustomerName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ChoosenNo, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.ChoosenNo, new SelectList(ViewBag.ChoosenNumbers, "Value", "Text"), "-- Select Number --", new { @class = "form-control" , id= "ChoosenNoID" })                
+                @Html.ValidationMessageFor(model => model.ChoosenNo, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Package, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.Package, new SelectList(ViewBag.Packages, "Value", "Text"), "-- Select Package --", new { @class = "form-control" })
+                @*@Html.EditorFor(model => model.Package, new { htmlAttributes = new { @class = "form-control" } })*@
+                @Html.ValidationMessageFor(model => model.Package, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Mobile1, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Mobile1, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Mobile1, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Mobile2, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Mobile2, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Mobile2, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Address, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.City, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.City, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.City, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.District, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.District, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.District, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Comment, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.Comment, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Comment, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.VisitDate , htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+            @*    @Html.HiddenFor(model => model.VisitDateString, new { id = "VisitDateString" })*@
+                @Html.EditorFor(model => model.VisitDate, new { htmlAttributes = new { @class = "form-control date-picker" , id = "VisitDate" } })
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-md-4">
+                <button type="submit" class="btn btn-mini" id="SaveBTN" style="display: none;"></button>
+            </div>
+            <div class="col-md-1">
+                <input type="button" value="Create" class="btn btn-success" id="CreateBTN" />
+            </div>
+            <div class="col-md-1">
+                <input type="button" value="Follow" class="btn btn-primary" id="Follow" />
+            </div>
+            <div class="col-md-1">
+                <input type="button" onclick="window.location.href = '/Numbers/UnChoose/@Model.ChoosenNo'"  value="Cancle" class="btn btn-danger" id="Cancle" />
+            </div>
+        </div>
+
+    </div>
+}
+
+<link href="~/Content/themes/base/jquery-ui.min.css" rel="stylesheet" />
+
+@section scripts{
+
+@Scripts.Render("~/bundles/jqueryval")
+    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+
+    <script>
+        $(function () {
+            $('.date-picker').datepicker({
+                dateFormat: "mm/dd/yy"
+            });
+        })
+    </script>
+
+<script>
+
+    //$('#VisitDate').change(function () {
+    //    debugger
+    //    var x = this.value;
+    //    $('#VisitDateString').val(x);
+    //})
+
+    $("#Follow").click(function () {
+        debugger
+        $("#Follow").attr("disabled", true);
+        $("#CreateBTN").attr("disabled", true);
+        $("#Cancle").attr("disabled", true);
+        $("#StatusID").val(1);
+        //$("#CreateBTN").click(); // Submit the form
+
+        var Serial = $("#Serial").val();
+        $.ajax({
+            url: "/Sales/CheckSerialIsValid",
+            type: "POST",
+            dataType: "json",
+            success: function (data) {
+                debugger
+                if (data.validSerial != Serial) {
+                    alert("This Serial will be changed to : " + data.validSerial)
+                    Serial = parseInt(Serial);
+                    $("#Serial").val((Serial + 1));
+                }
+            }
+        });
+
+
+        var NumberId = parseInt($("#ChoosenNoID").val());
+        $.ajax({
+            url: "/Numbers/CheckNumberIsValid",
+            type: "POST",
+            dataType: "json",
+            data: { NumberId: NumberId },
+            success: function (data) {
+                debugger
+                console.log(data);
+                if (data.valid == true) {
+                    $("#SaveBTN").click();
+                }
+                else {
+                    alert("Please choose Anthor Number This One Choosed!!")
+                    e.preventDefault();
+                    return
+                }
+            }
+        });
+
+    });
+
+    $("#CreateBTN").click(function (e) {
+        debugger
+        var Serial = $("#Serial").val();
+        $.ajax({
+            url: "/Sales/CheckSerialIsValid",
+            type: "POST",
+            dataType: "json",
+            success: function (data) {
+                debugger
+                if (data.validSerial != Serial) {
+                    alert("This Serial will be changed to : " + data.validSerial)
+                    Serial = parseInt(Serial);
+                    $("#Serial").val((Serial+1));
+                }
+            }
+        });
+
+
+       var NumberId = parseInt($("#ChoosenNoID").val());
+        $.ajax({
+            url: "/Numbers/CheckNumberIsValid",
+            type: "POST",
+            dataType: "json",
+            data: { NumberId: NumberId },
+            success: function (data) {
+                debugger
+                console.log(data);
+                if (data.valid == true) {
+                    $("#SaveBTN").click();
+                }
+                else {
+                    alert("Please choose Anthor Number This One Choosed!!")
+                    e.preventDefault();
+                    return
+                }
+            }
+        });
+    });
+
+
+</script>
+}
+
+
+
+
+
+

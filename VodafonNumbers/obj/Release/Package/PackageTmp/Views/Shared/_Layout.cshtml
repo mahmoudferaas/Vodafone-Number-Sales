@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    
+                    <li>@Html.ActionLink("Numbers", "Create", "Numbers")</li>
+                    <li>@Html.ActionLink("Sales", "Index", "Sales")</li>
+                    <li>@Html.ActionLink("Active", "ActiveIndex", "Sales")</li>
+                    <li>@Html.ActionLink("Follow", "FollowIndex", "Sales")</li>
+                    <li>@Html.ActionLink("Reject", "RejectIndex", "Sales")</li>
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script src="~/Scripts/jquery.signalR-2.4.1.min.js"></script>
+    <script src="~/Scripts/jquery.signalR-2.4.1.js"></script>
+    <script src="~/signalr/hubs" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+            debugger
+            // Proxy created on the fly
+            var cus = $.connection.NumbersHub;
+            // Declare a function on the job hub so the server can invoke it
+            cus.client.DispalyNumbers = function () {
+                getData();
+            };
+            // Start the connection
+            $.connection.hub.start();
+            getData();
+        });
+        function getData()
+        {
+            var $tbl = $('#tblInfo');
+            $.ajax({
+                url: $("#Get").val(),
+                type: 'GET',
+                datatype: 'json',
+                success: function (data) {
+                    $tbl.empty();
+                    $.each(data.listCus, function (i, model) {
+                       // debugger
+                        var id = model.Id;
+                        $tbl.append
+                        (
+                            '<tr>' +
+                            '<td>' + (i + 1) + '</td>' +
+                            '<td>' + model.No + '</td>' +
+                            '<td> <a href="/Sales/Create?numberID=' + model.Id + ' ">Choose</a> </td>' +
+                            '<tr>'
+                        );
+                    });
+                }
+            });
+        }
+    </script>
+
+   
+</body>
+</html>
